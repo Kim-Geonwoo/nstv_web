@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "score";
+  font-weight: 200;
+  src: url("../assets/fonts/SCDream5.otf") format("truetype");
+}
+@font-face {
+  font-family: "vitro-core";
+  font-weight: 200;
+  src: url("../assets/fonts/vitro-core.otf") format("truetype");
+}
+@font-face {
+  font-family: "gmarket-bold";
+  font-weight: 200;
+  src: url("../assets/fonts/GmarketSansBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "gmarket-medium";
+  font-weight: 200;
+  src: url("../assets/fonts/GmarketSansMedium.otf") format("truetype");
+}
