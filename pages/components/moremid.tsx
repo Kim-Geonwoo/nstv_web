@@ -31,7 +31,7 @@ import { AspectRatio } from '@chakra-ui/react'
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
               fontFamily={"vitro-core"}
-                as={'span'}
+                as={'i'}
                 position={'relative'}
                 _after={{
                   content: "''",
@@ -43,11 +43,11 @@ import { AspectRatio } from '@chakra-ui/react'
                   bg: 'red.400',
                   zIndex: -1,
                 }}>
-                씨엠프로스
+                NSTV
               </Text>
               <br></br>
               <Text fontSize={{ base: '3xl', sm: '3xl', lg: '4xl' }} fontFamily={"score"} as={'span'} color={'red.400'}>
-               최신영상을 만나보세요!
+               2022 영상제을 만나보세요!
               </Text>
             </Heading>
             <Text fontFamily={"score"} color={'gray.500'}>

@@ -55,12 +55,11 @@ import {
               p={2}
               alignSelf={'flex-start'}
               rounded={'md'}>
-              씨엠프로스에 대하여
+              NSTV에 대하여
             </Text>
-            <Heading fontFamily={"vitro-core"}>일산국제컨벤션고 최고의<br></br>미디어 동아리 씨엠프로스</Heading>
+            <Heading fontFamily={"vitro-core"}>남서울대학교 최고의<br></br>영상제작 동아리 NSTV</Heading>
             <Text fontFamily={"score"} color={'gray.500'} fontSize={'lg'}>
-            궁금합니다! 씨엠프로스 동아리가 최고인가요? 그 이유를 <br></br>알려드립니다.
-단 3가지 이유로도 충분하죠
+            궁금합니다! NSTV는 무엇을 하는 곳 인가요?<br></br>남서울대의 유일무이한 영상제작 동아리 NSTV!
             </Text>
             <Stack
               spacing={4}

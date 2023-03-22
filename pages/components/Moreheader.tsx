@@ -19,7 +19,7 @@ import {
         boxSize='100px'
         objectFit='contain'
         src={
-          'https://i.ibb.co/9gMVPxJ/image.png'
+          'https://i.postimg.cc/TwtH0Wsh/275096059-2184373768367902-219761349894578467-n.jpg'
         }
       />
       </Link>
@@ -71,15 +71,15 @@ import {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Logo />
-          <Text fontFamily={"vitro-core"} fontSize={{ base: '2xl', md: '2xl', lg: '3xl' }}>씨엠프로스 공식 소개 홈페이지</Text>
+          <Text fontFamily={"vitro-core"} fontSize={{ base: '2xl', md: '2xl', lg: '3xl' }}>남서울대 NSTV 홈페이지</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Home'} href={'./'}>
               <FaHome />
             </SocialButton>
-            <SocialButton label={'YouTube'} href={'https://www.youtube.com/channel/UCHP5Es6ZbyQF_ChnAufl1XQ'}>
+            <SocialButton label={'YouTube'} href={'https://www.youtube.com/channel/UCqo8A1mJpRH1Bk3UWvBtcyA'}>
               <FaYoutube />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'https://www.instagram.com/cmpros_official/'}>
+            <SocialButton label={'Instagram'} href={'https://www.instagram.com/nsu_nstv/'}>
               <FaInstagram />
             </SocialButton>
           </Stack>

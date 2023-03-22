@@ -30,16 +30,16 @@ export default function SplitScreen() {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              씨엠프로스
+              NSTV
             </Text>
             <br />{' '}
             <Text color={'blue.400'} as={'span'}>
-              일국컨 미디어동아리
+              남서울대학교 동아리
             </Text>{' '}
           </Heading>
           <Text fontFamily={"gmarket-medium"} fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-            일산국제컨벤션고등학교의 유일한<br></br> 미디어동아리
-            씨엠프로스 공식 홈페이지 입니다.
+            남서울대학교의 특별한<br></br> 미디어동아리
+            NSTV 공식 홈페이지 입니다.
           </Text>
           <Stack fontFamily={"gmarket-medium"} direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Link href="#"> 
@@ -50,7 +50,7 @@ export default function SplitScreen() {
               _hover={{
                 bg: 'blue.500',
               }}>
-              씨엠프로스 커뮤니티(공사중)
+              NSTV Library (준비중)
             </Button>
             </Link>
             <Link href="./more">
@@ -64,7 +64,7 @@ export default function SplitScreen() {
           alt={'Login Image'}
           objectFit={'cover'}
           src={
-            'https://i.postimg.cc/YCTXDLbv/SPOILER.jpg'
+            'https://i.postimg.cc/Rh9V7yjv/131899239-889838908425555-1644863448226678393-n.jpg'
           }
         />
       </Flex>
