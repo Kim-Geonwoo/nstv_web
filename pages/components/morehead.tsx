@@ -13,7 +13,7 @@ import {
   import {
     IoCameraOutline,
     IoDesktopOutline,
-    IoCreateOutline,
+    IoLogoYoutube,
   } from 'react-icons/io5';
   import { ReactElement } from 'react';
   
@@ -73,19 +73,19 @@ import {
                   <Icon as={IoCameraOutline} color={'yellow.500'} w={5} h={5} />
                 }
                 iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                text={'최고의 촬영장비'}
+                text={'매년 진행하는 영상제'}
               />
               <Feature
                 icon={<Icon as={IoDesktopOutline} color={'green.500'} w={5} h={5} />}
                 iconBg={useColorModeValue('green.100', 'green.900')}
-                text={'최고성능의 편집컴퓨터'}
+                text={'편집초보를 위한 트레이닝'}
               />
               <Feature
                 icon={
-                  <Icon as={IoCreateOutline} color={'purple.500'} w={5} h={5} />
+                  <Icon as={IoLogoYoutube} color={'purple.500'} w={5} h={5} />
                 }
                 iconBg={useColorModeValue('purple.100', 'purple.900')}
-                text={'멈추지 않는 아이디어'}
+                text={'NSTV 유튜브 활동'}
               />
             </Stack>
           </Stack>
