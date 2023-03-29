@@ -51,12 +51,12 @@ import { AspectRatio } from '@chakra-ui/react'
               </Text>
             </Heading>
             <Text fontFamily={"score"} color={'gray.500'}>
-              씨엠프로스가 제작한 일산국제컨벤션고등학교의 최신 영상들을 지금 만나보세요!
+              2022 NSTV의 영상제 다시보기를 지금 시청하세요!
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
-             <Link href="https://www.youtube.com/c/%EC%9D%BC%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%BB%A8%EB%B2%A4%EC%85%98%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90" passHref={true}>
+             <Link href="https://www.youtube.com/watch?v=2rrG8sGqHPY" passHref={true}>
              <Button
                 rounded={'full'}
                 size={'lg'}
@@ -68,14 +68,14 @@ import { AspectRatio } from '@chakra-ui/react'
                 바로가기
               </Button>
                 </Link>
-                <Link href="https://www.youtube.com/c/%EC%9D%BC%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%BB%A8%EB%B2%A4%EC%85%98%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90" passHref={true}>
+                <Link href="https://www.youtube.com/@nstv3419" passHref={true}>
               <Button
                 rounded={'full'}
                 size={'lg'}
                 fontWeight={'normal'}
                 px={6}
                 leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
-                일산국제컨벤션고등학교 유튜브
+                NSTV 유튜브
               </Button>
                 </Link>
             </Stack>
@@ -117,7 +117,7 @@ import { AspectRatio } from '@chakra-ui/react'
               <AspectRatio maxW='auto' ratio={2}>
                 <iframe
               title='youtube'
-              src="https://www.youtube.com/embed/HmON0C49mEM"
+              src="https://www.youtube.com/embed/2rrG8sGqHPY"
               allowFullScreen
                 />
                 </AspectRatio>

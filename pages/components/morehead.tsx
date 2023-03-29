@@ -94,9 +94,9 @@ import {
               rounded={'md'}
               alt={'feature image'}
               src={
-                'https://i.postimg.cc/7P9b3pNR/IMG-3501.jpg'
+                'https://i.postimg.cc/NFqJxwxR/1-nstv-1.gif'
               }
-              objectFit={'cover'}
+              objectFit={'contain'}
             />
           </Flex>
         </SimpleGrid>

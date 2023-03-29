@@ -12,19 +12,19 @@ import {
   const testimonials = [
     {
       name: '김건우',
-      role: '씨엠프로스 2021~2022 동아리 회장',
+      role: '파릇파릇한 NSTV 29기 신입부원',
       content:
-        '씨엠프로스가 처음 시작된 1기부터 지내왔습니다. 씨엠프로스는 정말 학교의 지원도 많이받고 가장 좋은 시설을 제공받아 이렇게 성장 할 수 있었던거 같습니다. 후배들아 내년에도 화이팅!',
+        '평소에 영상편집이랑 촬영을 너무 좋아해서 동아리를 알아보던 중 NSTV를 알게되었고, 등어오자마자 형,누나 분들이 신환회를 너무 재밌게 진행해주셔서 너무 재밌었어요! NSTV 화이팅!!',
       avatar:
-        'https://i.postimg.cc/wv7yJKrZ/cmpros.png',
+        'https://black_hole-3kf-1-g6170051.deta.app/api/photo/jz8t68g3zl8t.jpg',
     },
     {
-      name: '권OO',
-      role: '씨엠프로스 1기 부원',
+      name: '김건우',
+      role: '파릇파릇한 NSTV 29기 신입부원',
       content:
-        "씨엠프로스에 들어오고 편집과 촬영을 배우며 많은 것을 배웠고, DSLR을 처음 만져보며 어려웠지만 많이 사용하며 익숙하게 되었습니다. 다양한 것을 재밌게 놀면서 배우고 활동하는 씨엠프로스로 오세요!",
+        '평소에 영상편집이랑 촬영을 너무 좋아해서 동아리를 알아보던 중 NSTV를 알게되었고, 등어오자마자 형,누나 분들이 신환회를 너무 재밌게 진행해주셔서 너무 재밌었어요! NSTV 화이팅!!',
       avatar:
-        'https://i.postimg.cc/wv7yJKrZ/cmpros.png',
+        'https://black_hole-3kf-1-g6170051.deta.app/api/photo/jz8t68g3zl8t.jpg',
     },
     // {
     //   name: 'Darcy L.',
@@ -145,7 +145,7 @@ import {
             fontSize={20}
             textTransform={'uppercase'}
             color={'purple.400'}>
-            씨엠프로스들의 이야기
+            NSTV에 대한 이야기
           </chakra.h3>
           <chakra.h1
             py={5}
@@ -153,7 +153,7 @@ import {
             fontFamily={'gmarket-bold'}
             fontWeight={'bold'}
             color={useColorModeValue('gray.700', 'gray.50')}>
-            씨엠프로스 부원들의 한마디
+            NSTV에는 이런 점이 좋아요!
           </chakra.h1>
           <chakra.h2
             margin={'auto'}
@@ -161,11 +161,11 @@ import {
             fontFamily={'Inter'}
             fontWeight={'medium'}
             color={useColorModeValue('gray.500', 'gray.400')}>
-            지금까지 활동해온 {' '}
+            NSTV에서 활동해온 부원들의 {' '}
             <chakra.strong color={useColorModeValue('gray.700', 'gray.50')}>
-              씨엠프로스 부원들의 한마디
+              솔직하고 담백한
             </chakra.strong>{' '}
-            한곳에 정리하여 한눈에 볼 수 있게 하였습니다!
+            슬기로운 동아리 생활 이야기를 들어보세요!
           </chakra.h2>
         </Box>
         <SimpleGrid

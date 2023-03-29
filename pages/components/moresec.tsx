@@ -9,6 +9,7 @@ import {
   Text,
   useColorModeValue,
   Image,
+  Heading,
 } from '@chakra-ui/react';
 
 const Logo = (props: any) => {
@@ -18,7 +19,7 @@ const Logo = (props: any) => {
         boxSize='100px'
         objectFit='contain'
         src={
-          'https://i.ibb.co/9gMVPxJ/image.png'
+          'https://i.postimg.cc/TwtH0Wsh/275096059-2184373768367902-219761349894578467-n.jpg'
         }
       />
   );
@@ -46,24 +47,18 @@ export default function Moresec() {
               <Logo color={useColorModeValue('gray.700', 'white')} />
             </Box>
             <Text fontSize={'sm'}>
-              © 2022 CMPROS. All rights reserved.
+              © 2023 NSTV. All rights reserved.
             </Text>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>촬영장비들</ListHeader>
-            <Link href={'#'}>CANON 90d</Link>
-            <Link href={'#'}>SONY a6600</Link>
-            <Link href={'#'}>SONY z190</Link>
-            <Link href={'#'}>SONY z90</Link>
-            <Link href={'#'}>DJI mavic mini 2</Link>
+            <ListHeader>NSTV 임원</ListHeader>
+            <Link href={'#'}>회장 : 정우재</Link>
+            <Link href={'#'}>부회장 : 조정연</Link>
+            <Link href={'#'}>총무 : 오병민</Link>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>음향, 조명, 짐벌</ListHeader>
-            <Link href={'#'}>BOYA BY-WM8 무선마이크</Link>
-            <Link href={'#'}>BOYA BY-BM3031 샷건마이크</Link>
-            <Link href={'#'}>시네로이드 CFL800V 조명</Link>
-            <Link href={'#'}>DJI RS2 짐벌</Link>
-            <Link href={'#'}>DJI RSC2 짐벌</Link>
+            <ListHeader>홈페이지 제작</ListHeader>
+            <Link href={'https://www.instagram.com/geonwoo_0910/'}>@23학번 가상현실학과 김건우</Link>
           </Stack>
           {/* <Stack align={'flex-start'}>
             <ListHeader>Product</ListHeader>
@@ -82,6 +77,15 @@ export default function Moresec() {
             <Link href={'#'}>Partners</Link>
           </Stack> */}
         </SimpleGrid>
+          {/* <Heading lineHeight='tall'>
+            <Highlight
+              query={['spotlight', 'emphasize', 'Accentuate']}
+              styles={{ px: '2', py: '1', rounded: 'full', bg: 'teal.100' }}
+            >
+                With the Highlight component, you can spotlight, emphasize and accentuate
+                words.
+            </Highlight>
+        </Heading> */}
       </Container>
     </Box>
   );
