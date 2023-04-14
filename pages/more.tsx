@@ -10,7 +10,7 @@ import {
     Icon,
     useColorModeValue,
   } from '@chakra-ui/react';
-import { FeatureProps } from 'framer-motion';
+
  import Link from 'next/link';
   import Morehead from './components/morehead';
   import Moresec from './components/moresec';
