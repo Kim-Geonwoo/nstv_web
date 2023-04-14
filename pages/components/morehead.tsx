@@ -94,7 +94,7 @@ import {
               rounded={'md'}
               alt={'feature image'}
               src={
-                'https://i.postimg.cc/NFqJxwxR/1-nstv-1.gif'
+                'https://i.postimg.cc/FFy1jPmT/ezgif-com-optimize.gif'
               }
               objectFit={'contain'}
             />
