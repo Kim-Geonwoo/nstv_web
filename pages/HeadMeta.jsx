@@ -12,6 +12,7 @@ const HeadMeta = ({ title, description, url, image }) => {
         }
       />
       <meta name="naver-site-verification" content="9d1443fb1057f203c1700299def47a5372dba06f" />
+      <meta name="google-site-verification" content="EWXZFPOb-meLWq74XRx7YmCnF63dMKkGY0T1_hr5C2g" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta property="og:title" content={title || "NSTV by NSU"} />
       <meta property="og:type" content="website" />
