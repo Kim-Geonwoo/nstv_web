@@ -39,7 +39,8 @@ export default function SplitScreen() {
           </Heading>
           <Text fontFamily={"gmarket-medium"} fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
             남서울대학교의 특별한<br></br> 미디어동아리
-            NSTV 공식 홈페이지 입니다.
+            NSTV 비공식 홈페이지 입니다.<br></br>
+            ("2023년 04월" 기준으로 작성된 웹페이지 입니다.)
           </Text>
           <Stack fontFamily={"gmarket-medium"} direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Link href="#"> 
