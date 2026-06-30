@@ -6,12 +6,12 @@ export default function MyDocument() {
         <Html lang="ko">
             <Head>
                 {/* <title>NSTV by NSU</title> */}
-                {/* <meta http-equiv="Title" content="NSTV by NSU" /> */}
-                <meta http-equiv="Author" content="가상현실학과 김건우" />
-                <meta http-equiv="publisher" content="가상현실학과 김건우" />
-                <meta http-equiv="Reply-To" content="kgw@geonwoo.dev" />
-                <meta http-equiv="Email" content ="kgw@geonwoo.dev" />
-                <meta http-equiv="imagetoolbar" content="no" />
+                {/* <meta httpEquiv="Title" content="NSTV by NSU" /> */}
+                <meta httpEquiv="Author" content="가상현실학과 김건우" />
+                <meta httpEquiv="publisher" content="가상현실학과 김건우" />
+                <meta httpEquiv="Reply-To" content="kgw@geonwoo.dev" />
+                <meta httpEquiv="Email" content ="kgw@geonwoo.dev" />
+                <meta httpEquiv="imagetoolbar" content="no" />
                 
                 <meta
                     name="Description" 
@@ -20,7 +20,6 @@ export default function MyDocument() {
                 />
                 <meta name="naver-site-verification" content="9d1443fb1057f203c1700299def47a5372dba06f" />
                 <meta name="google-site-verification" content="EWXZFPOb-meLWq74XRx7YmCnF63dMKkGY0T1_hr5C2g" />
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 {/* <meta property="og:title" content={title || "NSTV by NSU"} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={url || "https://nstv.geonwoo.dev"} />
