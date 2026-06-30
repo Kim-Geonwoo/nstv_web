@@ -6,16 +6,12 @@ import {
     Heading,
     Text,
     Button,
-    Image,
     Icon,
     IconButton,
     createIcon,
     IconProps,
-    useColorModeValue,
-    
+    AspectRatio,
   } from '@chakra-ui/react';
-import Link from 'next/link';
-import { AspectRatio } from '@chakra-ui/react'
   export default function CallToActionWithVideo() {
     return (
       <Container maxW={'7xl'}>
@@ -56,8 +52,11 @@ import { AspectRatio } from '@chakra-ui/react'
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
-             <Link href="https://www.youtube.com/watch?v=2rrG8sGqHPY" passHref={true}>
              <Button
+                as="a"
+                href="https://www.youtube.com/watch?v=2rrG8sGqHPY"
+                target="_blank"
+                rel="noopener noreferrer"
                 rounded={'full'}
                 size={'lg'}
                 fontWeight={'normal'}
@@ -67,9 +66,11 @@ import { AspectRatio } from '@chakra-ui/react'
                 _hover={{ bg: 'red.500' }}>
                 바로가기
               </Button>
-                </Link>
-                <Link href="https://www.youtube.com/@nstv3419" passHref={true}>
               <Button
+                as="a"
+                href="https://www.youtube.com/@nstv3419"
+                target="_blank"
+                rel="noopener noreferrer"
                 rounded={'full'}
                 size={'lg'}
                 fontWeight={'normal'}
@@ -77,7 +78,6 @@ import { AspectRatio } from '@chakra-ui/react'
                 leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
                 NSTV 유튜브
               </Button>
-                </Link>
             </Stack>
           </Stack>
           <Flex

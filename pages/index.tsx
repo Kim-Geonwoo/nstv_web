@@ -7,7 +7,7 @@ import {
   Text,
   useBreakpointValue,
 } from '@chakra-ui/react';
-import Link from "next/link"
+import NextLink from 'next/link';
 export default function SplitScreen() {
   return (
     <Stack  minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
@@ -43,8 +43,9 @@ export default function SplitScreen() {
             ("2023년 04월" 기준으로 작성된 웹페이지 입니다.)
           </Text>
           <Stack fontFamily={"gmarket-medium"} direction={{ base: 'column', md: 'row' }} spacing={4}>
-            <Link href="#"> 
             <Button
+              as={NextLink}
+              href="#"
               rounded={'full'}
               bg={'blue.400'}
               color={'white'}
@@ -53,10 +54,7 @@ export default function SplitScreen() {
               }}>
               NSTV Library (준비중)
             </Button>
-            </Link>
-            <Link href="./more">
-            <Button rounded={'full'}>더 알아보기</Button>
-            </Link>
+            <Button as={NextLink} href="./more" rounded={'full'}>더 알아보기</Button>
           </Stack>
         </Stack>
       </Flex>
